@@ -15,4 +15,5 @@ jobs:
           cx_tenant: ps_prayash_mishra
           cx_client_id: testing
           cx_client_secret: xJVjsGZa38BBIVwXGO4s2ii11FqmrnnT
-          project_name: Manual
+          project_name: Second
+          branch: master
