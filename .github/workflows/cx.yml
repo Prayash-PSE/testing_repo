@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Checkmarx AST Scan
-        uses: Checkmarx/ast-github-action@v3
+        uses: Checkmarx/ast-github-action@2.0.23
         with:
           base_uri: https://ind.ast.checkmarx.net/
           cx_tenant: ps_prayash_mishra
