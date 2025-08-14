@@ -12,4 +12,4 @@ jobs:
           base_uri: https://ast.checkmarx.net
           client_id: testing
           client_secret: xJVjsGZa38BBIVwXGO4s2ii11FqmrnnT
-          project_name: Mynewproject
+          project_name: Manual
