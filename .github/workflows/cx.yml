@@ -1,0 +1,15 @@
+name: CxOne Scan
+on:
+  pull_request:
+  push:
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Checkmarx/ast-github-action@main
+        with:
+          base_uri: https://ast.checkmarx.net
+          client_id: testing
+          client_secret: xJVjsGZa38BBIVwXGO4s2ii11FqmrnnT
+          project_name: Mynewproject
